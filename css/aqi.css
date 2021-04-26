@@ -1,0 +1,317 @@
+.level_1 {
+  background-color: #95F084;
+}
+
+.level_2 {
+  background-color: #FFE695;
+}
+
+.level_3 {
+  background-color: #FFAF6A;
+}
+
+.level_4 {
+  background-color: #FF5757;
+}
+
+.level_5 {
+  background-color: #9777FF;
+}
+
+.level_6 {
+  background-color: #AD1774;
+}
+
+.font-s {
+  font-size: 26px !important;
+}
+
+*, body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  background-color: #eee;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Microsoft JhengHei", Helvetica, Noto Sans TC, Roboto, Arial, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.mt {
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper--style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aqiFilter {
+  margin: 0 50px 0 0;
+}
+
+.aqiFilter h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+.aqiFilter .custom-select {
+  width: 350px;
+  height: 56px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+table thead th {
+  width: 121px;
+  height: 56px;
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid #000;
+}
+
+table tbody td {
+  width: 121px;
+  height: 54px;
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid #000;
+  line-height: 1.3;
+}
+
+.cityInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+.cityInfo__cityName {
+  width: 15%;
+  min-width: 150px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.cityInfo__cityTime {
+  width: 25%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.line {
+  width: 80%;
+}
+
+.line::before {
+  content: '';
+  border-bottom: 2px dotted #000;
+  width: 95%;
+  height: 1px;
+  display: block;
+}
+
+.detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.detail__selectedWrapper {
+  margin: 0 50px 0 0;
+}
+
+.detail__selectedDistrict {
+  width: 350px;
+  border: 3px solid #000;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 3px solid #000;
+}
+
+.detail__selectedDistrict div {
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  font-size: 36px;
+}
+
+.detail .disValue {
+  background-color: #fff;
+  border-right: 3px solid #000;
+}
+
+.detail__element {
+  padding: 20px 0;
+  background-color: #fff;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+.detail__element__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+}
+
+.detail__element__item:last-child {
+  border-bottom: none;
+}
+
+.detail__element span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.detail__otherWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.detail__otherWrapper .detail__otherDistrict:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.detail__otherDistrict {
+  width: 350px;
+  height: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid #000;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.detail__otherDistrict div {
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000;
+}
+
+.footer__state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFF;
+  padding: 10px 0;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.84);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.donut {
+  display: inline-block;
+  border: 5px solid #000;
+  border-left-color: #95F084;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: donut .8s linear infinite;
+          animation: donut .8s linear infinite;
+}
+
+@-webkit-keyframes donut {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes donut {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=aqi.css.map */
