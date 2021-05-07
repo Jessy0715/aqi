@@ -125,6 +125,13 @@
             <div class="donut"></div>
         </div>
     </div>
+    <!-- 爬梳邏輯
+        1. 下拉選單放入縣市陣列，但要找出不重複的資料再放上去
+        2. 選到的縣市，與資料裡的縣市相符，即 show 出資料
+        3. 資料的 AQI顏色變換，依據 AQI 值
+        4. 選到的區，與資料裡的區相符，即 show 出該資料
+        5. 若遇到沒資料，或是資料是空的狀態，class 有所變化
+    -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script>
         var app = new Vue({
